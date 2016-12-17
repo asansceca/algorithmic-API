@@ -1,0 +1,16 @@
+#init
+
+getData<-function(Indices=c(), ApiKey, Leveldata=TRUE, Stationarydata=TRUE, AdaptiveCoreCapcity=TRUE, RegularMarketHoursDelay=5,PrePostMarketHoursDelay=15) {
+
+#AdaptiveCoreCapcity
+#  setMKLthreads if MRO 
+#  
+    is.Working.Day<-function(){}
+    is.regularMarketHours<-function(){}
+    is.prepostMarketHours<-function(){}
+
+
+#initialize permant loop
+while(as.numeric(format(Sys.time(),"%H")) < 25 ) { 
+  
+  
