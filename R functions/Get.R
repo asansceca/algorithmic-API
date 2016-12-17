@@ -2,9 +2,10 @@
 
 getData<-function(Indices=c(), ApiKey, Leveldata=TRUE, Stationarydata=TRUE, AdaptiveCoreCapcity=TRUE, RegularMarketHoursDelay=5,PrePostMarketHoursDelay=15) {
 
-#AdaptiveCoreCapcity
+# AdaptiveCoreCapcity  #####
 #  setMKLthreads if MRO 
-#  
+#  switch the amount of cores depending on the time of day
+    
     is.Working.Day<-function(){}
     is.regularMarketHours<-function(){}
     is.prepostMarketHours<-function(){}
