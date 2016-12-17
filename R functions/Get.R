@@ -1,4 +1,4 @@
-#init
+#Prioritize this R function before Python & excel projects
 
 getData<-function(Indices=c(), ApiKey, Leveldata=TRUE, Stationarydata=TRUE, AdaptiveCoreCapcity=TRUE, RegularMarketHoursDelay=5,PrePostMarketHoursDelay=15) {
 
